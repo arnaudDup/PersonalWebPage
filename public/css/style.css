@@ -214,10 +214,30 @@ header .btn:focus {
 }
 
  .inverted-color {
-  background-color: #223344;
+  background-image: url("../img/backgroundPresentation.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
   padding-bottom: 20px;
   padding-top: 20px;
   color: #fff;
+}
+
+.important {
+	font-size: 18px;
+	color : #FFCCCC;
+	font-style: italic;
+}
+
+.skilllist {
+	text-align:left;
+}
+
+.listTimeLine  {
+	text-align:left;
+	color: inherit;
 }
 
 .aboutme-image {
@@ -291,12 +311,33 @@ header .btn:focus {
 	height:80px;
 	position:absolute;
 	z-index:100;
+	  background-image: url("../img/backgroundPresentation.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 	background-color:#00427a;
 	color:#fff;
 	border-radius:100%;
 	border:7px solid #f1f1f1;
 	text-align:center
 }
+
+.imageINSA {
+	    margin-left: auto;
+    	margin-right: auto;
+    	padding-top: 1.8cm;
+    	border-radius:0%;
+}
+
+.imageAdventure {
+	    margin-left: auto;
+    	margin-right: auto;
+    	padding-top: 0.6cm;
+    	border-radius:0%;
+}
+
 .timeline>li .timeline-panel h3 {
   font-size: 16px;
 	margin-top:12px;
@@ -339,7 +380,7 @@ header .btn:focus {
 	text-transform:none
 }
 .timeline .timeline-body>p,.timeline .timeline-body>ul {
-	margin-bottom:0
+	text-align:left;
 }
 @media (min-width:768px) {
 	.timeline:before {
